@@ -14,7 +14,13 @@
 #     name: python3
 # ---
 
+# +
+# Click the    >>   icon in the menu bar above to start the notebook. Wait a few seconds for it to load.
+# -------------------------------------------------------------------------------------------------------
+
 from user_interface import create_user_interface
+
+# -
 
 # %load_ext autoreload
 # %autoreload 2
