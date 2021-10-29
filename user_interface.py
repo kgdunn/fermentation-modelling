@@ -95,13 +95,15 @@ plot_groups = {
         "Mnh3 [g NH3]",
         "Mx [g biomass X]",
         "Mp [g protein p]",
-    ],
-    "Totalizers": [
+        # ],
+        # "Totalizers": [
         "Σ glucose feed [g glucose]",
         "Σ NH3 feed [g NH3]",
         "Σ O2 [mol O2]",
         "Σ CO2 [mol CO2]",
         "Σ evap H2O [g H2O]",
+        "Fglc [g/h]",
+        "Fnh3 [g/h]",
     ],
     "Concentrations": [
         "Cglc [g/kg]",
@@ -117,6 +119,15 @@ plot_groups = {
         "Qp [g/g X/h]",
         "Qco2 [mol/g X/h]",
     ],
+    "Rates/uptakes": [
+        "OUR [mmol/kg/h]",
+        "CPR [mmol/kg/h]",
+        "RQ [-]",
+        "Rglc [g/h]",
+        "Rnh3 [g/h]",
+        "Rx [g/h]",
+        "Rp [g/h]",
+    ],
     "G⇆L mass transfer": [
         "yO2 [mol/mol]",
         "yCO2 [mol/mol]",
@@ -126,19 +137,6 @@ plot_groups = {
         "C_{CO2}*g [mmol/kg]",
         "C_{O2} [mmol/kg]",
         "C_{CO2} [mmol/kg]",
-    ],
-    "Inlet flows": [
-        "Fglc [g/h]",
-        "Fnh3 [g/h]",
-    ],
-    "Rates/uptakes": [
-        "OUR [mmol/kg/h]",
-        "CPR [mmol/kg/h]",
-        "RQ [-]",
-        "Rglc [g/h]",
-        "Rnh3 [g/h]",
-        "Rx [g/h]",
-        "Rp [g/h]",
     ],
     "KPIs": [
         "Yxs [g/g]",
